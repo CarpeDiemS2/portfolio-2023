@@ -97,8 +97,8 @@ a {
 
 .about-me-content p {
   color: white;
-  line-height: 2rem;
-
+  line-height: 2.25rem;
+  font-size: 1.25rem;
 }
 
 /*habilidades*/
@@ -106,6 +106,8 @@ a {
   margin-top: 108px;
   display: flex;
   justify-content: center;
+  align-items: baseline;
+
 }
 
 .skill-item {
@@ -123,8 +125,6 @@ a {
   height: 200px;
   opacity: 70%;
   transition: border 0.4s;
-
-
 }
 
 .skill-item:hover {
@@ -225,7 +225,6 @@ a {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .contact-form .form-input {
