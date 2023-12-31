@@ -1,0 +1,133 @@
+@media(max-width: 1024px) {
+  .navbar-container {
+    display: none;
+  }
+
+  .showcase-container > h1 {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 3.3rem;
+  }
+
+  .showcase-container > p {
+    font-size: 0.875rem;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .about-me-content {
+    flex-direction: column;
+
+  }
+
+  .about-me-content img {
+    width: 200px;
+    height: 200px;
+    margin-right: 0;
+  }
+
+  .about-me-content p {
+    font-size: 0.875rem;
+    text-align: justify;
+    margin-top: 15px;
+    
+  }
+
+  .skills-contents {
+    margin-top: 40px;
+    flex-direction: column;
+  }
+
+  /*.skills-contents .skill-item:nth-child(1) {
+    margin-left: 0;
+  }*/
+
+  .skills-contents .skill-item {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .skill-item {
+    padding: 30px;
+  }
+
+  .skill-item p {
+    font-size: 0.875rem;
+  }
+
+  .skill-item img {
+    width: 90px;
+    height: 90px;
+  }
+
+
+  /*projetos*/
+
+  .projects-content {
+    margin-top: 40px;
+  }
+
+  .project-item {
+    flex-direction: column;
+  }
+
+.projects-content .project-item:nth-child(2) {
+  justify-content: center;
+  text-align: center;
+}
+
+.projects-content .project-item:nth-child(2) > .project-item-image {
+  order: 1;
+  margin-left: 0;
+}
+
+.projects-content .project-item:nth-child(2) > .project-text {
+  order: 2;
+}
+
+  .project-text {
+    margin-left: 0;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .project-text h3 {
+    font-size: 1.5rem;
+  }
+
+  .project-text p {
+    font-size: 0.875rem;
+    margin-top: 10px;
+  }
+
+  /*form*/
+  .contact-form {
+    /*margin-top: -10px;*/
+    margin-top: 40px;
+  }
+
+  .social-items a:last-child {
+    margin-right: 0;
+  }
+
+  .social-items {
+    margin-bottom: 15px;
+  }
+
+  /*footer*/
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*utillities**/
+  .section-title {
+    font-size: 2rem;
+  }
+
+  
+  .section-container {
+    padding: 30px;
+  }
+}
