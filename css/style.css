@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  border: none;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
@@ -164,6 +165,22 @@ a {
   order: 1;
 }
 
+.projects-content .project-item:nth-child(4) {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.projects-content .project-item:nth-child(4) > .project-item-image {
+  order: 2;
+  margin-left: 50px;
+}
+
+.projects-content .project-item:nth-child(4) > .project-text {
+  order: 1;
+}
+
+
+
 .project-item {
   display: flex;
   align-items: center;
@@ -188,21 +205,45 @@ a {
 }
 
 .project-item-1 {
-  background-image: url("https://www.escoladnc.com.br/blog/wp-content/webp-express/webp-images/uploads/2019/09/gestao_projetos-scaled.jpg.webp");
+  background-image: url("../img/lib-future.jpeg");
 }
 
 .project-item-2 {
-  background-image: url("https://www.escoladnc.com.br/blog/wp-content/webp-express/webp-images/uploads/2019/09/gestao_projetos-scaled.jpg.webp");
+  background-image: url("../img/jogo-da-forca.png");
 }
 
 .project-item-3 {
-  background-image: url("https://www.escoladnc.com.br/blog/wp-content/webp-express/webp-images/uploads/2019/09/gestao_projetos-scaled.jpg.webp");
+  background-image: url("../img/site-games.png");
+}
+
+.project-item-4 {
+  background-image: url("../img/criptador.png");
+}
+
+.project-item-5 {
+  background-image: url("../img/livro.png");
 }
 
 
 .project-text {
   margin-left: 50px;
   max-width: 600px;
+}
+
+.project-text button {
+  margin-top: 20px;
+  padding: 5px 10px;
+  background: green;
+  border-radius: 5px;
+}
+
+.project-text button:hover {
+  background: rgb(0, 149, 0);
+}
+
+.project-text button a {
+  font-size: 1.10rem;
+
 }
 
 
