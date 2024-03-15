@@ -82,6 +82,35 @@ a {
   margin-top: 10px;
 }
 
+.download {
+  display: flex;
+  align-items: center;
+  background-color: rgba(34, 139, 34, 0.546);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.download:hover {
+  background-color: green;
+  transition: background-color 1000ms;
+}
+
+.download-link {
+  font-size: 1.15rem;
+  font-weight: 500;
+  
+  /*margin-top: 30px;
+  background-color: rgba(0, 128, 0, 0.488);
+  padding: 10px;
+  border-radius: 20px;*/
+}
+
+.fa-file-arrow-down {
+  font-size: 35px;
+  margin-left: 10px;
+}
+
 .about-me-content {
   display: flex;
   align-items: center;
